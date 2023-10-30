@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+#hero{
+    text-align: center;
+    font-family: Inter;
+}
+
+#hero h1{
+    color: #000;
+    font-weight: 400;
+    font-size: 49px;
+}
+
+#hero span#h1{
+    font-weight: 700;
+    color: #F90;
+    font-size: 49px;
+}
+
+#hero span#p{
+    color: #F90;
+}
+
+#hero p{
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7D7987;
+}
+
+footer{
+    margin: auto;
+    text-align: center;
+    border-top: 1px solid #ECEFF2;
+    width: 592px;
+    height: 28px;
+    
+}
+
+footer a{
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #F90;
+}
+
+a:visited{
+    color: #F90;
+}
