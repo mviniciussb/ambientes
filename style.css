@@ -2,19 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-#hero{
+*{
+    font-family: Open Sans, sans-serif;
+}
+
+body{
     text-align: center;
-    font-family: Inter;
+   
+}
+
+#hero{
+    font-family: Inter, sans-serif;
+    width: 592px;
+    margin: auto;
 }
 
 #hero h1{
     color: #000;
     font-weight: 400;
     font-size: 49px;
+    line-height: 56px;
 }
 
 #hero span#h1{
-    font-weight: 700;
+    font-weight: bold;
     color: #F90;
     font-size: 49px;
 }
@@ -24,11 +35,9 @@
 }
 
 #hero p{
-    text-align: center;
-    font-family: Open Sans;
     font-size: 14px;
-    font-weight: 400;
     color: #7D7987;
+    line-height: 28px;
 }
 
 a:visited{
@@ -36,16 +45,11 @@ a:visited{
 }
 
 footer{
-    margin: auto;
-    text-align: center;
     border-top: 1px solid #ECEFF2;
-    width: 592px;
-    height: 28px;
     
 }
 
 footer a{
-    font-family: Open Sans;
     font-size: 14px;
     color: #F90;
 }
